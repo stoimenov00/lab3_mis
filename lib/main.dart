@@ -102,7 +102,7 @@ class ExamDemoListState extends State<ExamList> {
   void newAddExamScreen() {
     Navigator.of(context).push(new MaterialPageRoute(builder: (context) {
       return new Scaffold(
-          appBar: new AppBar(title: new Text('Add a new task')),
+          appBar: new AppBar(title: new Text('Додај испит')),
           body: Column(
             children: [
               new TextField(
